@@ -80,6 +80,7 @@ class ImageVideoUtils {
         context: context,
         builder: (ctx) => AlertDialog(
           contentPadding: EdgeInsets.zero,
+          backgroundColor: Theme.of(context).dialogTheme.backgroundColor,
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
